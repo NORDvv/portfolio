@@ -1,0 +1,11 @@
+image: registry.gitlab.com/pages/plain-html:latest
+
+pages:
+  script:
+  - mv * public
+  - cp -r * public
+  artifacts:
+    paths:
+    - public
+  only:
+  - main
