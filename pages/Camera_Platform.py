@@ -35,7 +35,7 @@ st.write(
 # Add GitHub button here
 st.markdown(
     """
-    <a href="https://gitlab.com/NORDvv/mobile-manipulator" target="_blank">
+    <a href="https://gitlab.com/NORDvv/him-moving-platform" target="_blank">
         <button style="
             background-color:#4CAF50; 
             color:white; 

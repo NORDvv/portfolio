@@ -28,28 +28,46 @@ st.write(
 # Define projects with links to their pages
 projects = [
     {
-        "title": "Mobile Manipulator Robot",
-        "description": "A ROS2-based mobile manipulator robot integrating SLAM, motion planning, and simulation.",
-        "technologies": "ROS2, Python, Gazebo, MoveIt",
-        "link": "./mobile_manipulator_robot",
-    },
-    {
-        "title": "STM32 Sensor Hub",
-        "description": "An embedded system using FreeRTOS for precise real-time sensor data processing.",
-        "technologies": "C, FreeRTOS, STM32, GPIO",
-        "link": "./stm32_sensor_hub",
-    },
-    {
-        "title": "Reinforcement Learning Agent",
-        "description": "A reinforcement learning system for solving OpenAI Gym tasks.",
-        "technologies": "Python, Gymnasium, TensorFlow, NumPy",
-        "link": "./reinforcement_learning_agent",  # Example link
-    },
-    {
         "title": "Robotic Soccer Control System",
         "description": "Developed multi-threaded software to control autonomous soccer robots.",
         "technologies": "C++, Qt, Protobuf",
-        "link": "./robotic_soccer_control_system",  # Example link
+        "link": "./SFURS",
+    },
+    {
+        "title": "Mobile Manipulator Robot",
+        "description": "A ROS2-based mobile manipulator robot integrating SLAM, motion planning, and simulation.",
+        "technologies": "ROS2, Python, Gazebo, MoveIt",
+        "link": "./Mobile_Robot",
+    },
+    {
+        "title": "Multi-Dimensional Maze",
+        "description": "A maze to explore various path search algorithms",
+        "technologies": "C++",
+        "link": "./Maze",
+    },
+    {
+        "title": "Camera Platform",
+        "description": "A system created for a Helium-Ion microscope",
+        "technologies": "Python, Arduino, 3D printing, SOLIDWORKS",
+        "link": "./Camera_Platform",
+    },
+    {
+        "title": "Traveling Salesman Problem Optimazation",
+        "description": "Solving TSP using genetic algorithms",
+        "technologies": "Python",
+        "link": "./TSP",
+    },
+    {
+        "title": "Tic-Tac-Toe AI Game",
+        "description": "Plaing Tic-Tac-Toe with Monte-Carlo Search",
+        "technologies": "Python",
+        "link": "./TicTacToe",
+    },
+    {
+        "title": "Multi-Agent Path Search",
+        "description": "Coordinating movements of multiple agents in a maze",
+        "technologies": "Python",
+        "link": "./MAPF",
     },
 ]
 
