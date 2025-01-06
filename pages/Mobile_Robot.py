@@ -48,7 +48,7 @@ st.markdown(
 )
 
 # Add another image in the Overview section
-st.image("images/mm1.jpeg", caption="Simulated view of the mobile manipulator in Gazebo.", use_container_width=False)
+#st.image("images/mm1.jpeg", caption="Simulated view of the mobile manipulator in Gazebo.", use_container_width=False)
 
 # Section: Technologies
 st.header("Technologies Used")
@@ -73,7 +73,7 @@ st.write(
 )
 
 # Add an image in the Key Features section
-st.image("images/mm2.jpeg", caption="SLAM mapping and motion planning visualized in Rviz.", use_container_width=False)
+#st.image("images/mm2.jpeg", caption="SLAM mapping and motion planning visualized in Rviz.", use_container_width=False)
 
 # Section: Challenges and Solutions
 st.header("Challenges and Solutions")
